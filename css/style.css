@@ -1,0 +1,22 @@
+
+.center {
+    text-align: center;
+}
+
+.bg-grey {
+    background-color: darkgray;
+    color: black;
+}
+
+.pa20 {
+    padding: 20px;
+}
+
+.bg-blue {
+    background-color: darkblue;
+    color: white;
+}
+
+.tl {
+    text-align: left;
+}
