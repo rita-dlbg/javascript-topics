@@ -1,10 +1,12 @@
-let result = 0;
-let count = 0;
-
-while (result !== 5) {
-  result = Math.floor(Math.random() * (10 - 1 + 1) + 1);
-  count++;
+function factor(n){
+  if(n==0)
+    return 1;
+  else
+    return n * factor(n-1);
+    
 }
 
-console.log(`The random result: ${result}`);
-console.log(`How many times random is executed: ${count}`);
+let num = 5;
+let result = factor(num);
+
+console.log(result);
